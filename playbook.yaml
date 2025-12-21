@@ -1,0 +1,12 @@
+---
+- name: Install common packages
+  hosts: all
+  become: true
+  roles:
+    - common
+
+- name: Bootstrap Kubernetes cluster
+  hosts: all
+  become: true
+  roles:
+    - kubernetes

@@ -1,0 +1,3 @@
+awx-deploy.yml
+kustomization.yml
+inventories/hosts.ini
