@@ -128,3 +128,4 @@
     - kubelet
     - kubeadm
     - kubectl
+  notify: restart containerd
